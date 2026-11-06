@@ -1,0 +1,25 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Build output
+**/target/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/coverage/
+**/*.py[cod]
+**/bin/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local persistent service data
+.local-data/
